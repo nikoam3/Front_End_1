@@ -1,0 +1,18 @@
+body header div {background-color: #E6E6E6; text-align: center}
+
+body header h1 {background-color: #C4C4C4; text-align: center; color: #005677; margin-bottom: 100px;}
+
+body main section h2{background-color: gray; color: #005677;}
+
+body main section ul.punto_negra{font-weight: bold;}
+
+body main section ul.punto_negra span{font-weight:normal}
+
+body main section ul.negra{font-weight: bold; list-style: none;}
+
+body main section ul.negra span{font-weight:normal}
+
+body main section ul li span.sangria{margin-left: 80px;}
+
+body footer {background-color: #005677; text-align: center}
+body footer span {color: white} 
