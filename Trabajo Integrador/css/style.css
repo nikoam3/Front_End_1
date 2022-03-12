@@ -15,7 +15,7 @@ body header section.primer span{
     width: 138px;
     /*top: 4px;
     height: 12px;*/
-    left: calc(50% - 138px/2 - 353px);
+    left: 90px;
     /*left: 15%;*/
     font-family: 'Roboto';
     font-weight: 400;
@@ -40,7 +40,6 @@ body header section.primer nav ul{
     list-style: none;
     padding: 0;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
@@ -53,14 +52,12 @@ body header section.segundo{
     align-items: center;
     background-color: #F0A83E;
 }
-
 body header section.segundo a{
     position: absolute;
     width: 166.38px;
     height: 23px;
     left: 40px;
 }
-
 body header section.segundo nav{
     position: absolute;
     width: 343px;
@@ -71,4 +68,164 @@ body header section.segundo nav ul{
     list-style-image: url('img/pawprint.png');
     justify-content: space-between;
 }
+body main section.primera{
+    height: 409px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+body main section.primera div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 365px;
+    height: 140px;
+    margin-right: 12px;
+    margin-bottom: 107px;
+}
+body main section.primera div span.placer{
+    width: 365px;
+    height: 54px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313
+}
+body main section.primera div span.comederos{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+}
+body main section.primera div button{
+    width: 141px;
+    height: 49px;    
+    background: #F0A83E;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px
+}
+body main section.segunda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+body main section.segunda h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    margin:10px 0px 0px 0px
+}
+body main section.segunda div{
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+    margin-top: 20px;
+}
+body main section.tercera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+body main section.tercera article{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 310px;
+    margin: 0px 10px 0px 10px;
+    align-items: center;
+    background-color: #FBFAF6;
+}
+body main section.tercera span.descr{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+body main section.tercera span.precio{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+body main section.cuarta{
+    width: 340px;
+    margin: 78px 0px 0px 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body main section.cuarta h3{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    text-align: center;
+    margin: 0px 0px 15px 0px
+}
+body main section.cuarta input{
+    display: flex;
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 11px;
+    color: #FFFFFF;
+    margin: 5px 0px 5px 0px
+}
+body main section.cuarta div{
+    display: flex;
+    flex-direction: row;
+}
 
+body main section.cuarta div button{
+    width: 110px;
+    height: 34px;    
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 0px;
+    margin: 40px 3px 0px 3px
+}
+
+body main section.cuarta div button.reset{
+    background-color: #8A8787
+}
+body main section.cuarta div button.enviar{
+    background-color: #F0A83E;
+}
