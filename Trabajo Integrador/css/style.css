@@ -84,6 +84,11 @@ body header section.segundo nav ul{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+body main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 body main section.primera{
     /*height: 50vh*/
     /*min-height: 400px;*/
@@ -148,13 +153,12 @@ body main section.primera div button{
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
-    border: 0px
 }
 body main section.segunda{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 body main section.segunda h2{
     font-family: 'Roboto';
@@ -168,7 +172,6 @@ body main section.segunda div{
     display: flex;
     justify-content: space-between;
     width: 267px;
-    flex-direction: row;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -179,9 +182,9 @@ body main section.segunda div{
 }
 body main section.tercera{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
 body main section.tercera article{
     display: flex;
@@ -207,8 +210,8 @@ body main section.tercera span.precio{
     color: #F0A83E;
 }
 body main section.cuarta{
-    width: 340px;
-    margin: 78px 0px 0px 343px;
+    width: 33.2vw;
+    padding-top: 78px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,14 +261,14 @@ body main section.cuarta div button.enviar{
     background-color: #F0A83E;
 }
 body footer section.primer{
-    height: 60px;
     margin-top: 70px;
+    padding: 10px 4.58vw 10px 23px;
     background-color: #F0A83E;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
 body footer section.primer img{
     margin-left: 23px;
 }
@@ -279,11 +282,9 @@ body footer section.primer span{
     color: #FFFFFF;
 }
 body footer section.primer input{
-    position: absolute;
-    margin-left: 625px;
-    border: 0px;
-    width: 271px;
+    width: 26.46vw;
     height: 40px;
+    border: 0px;
     border-radius: 15px;
     font-size: 9px;
     background-color: #FFFFFF;
@@ -292,7 +293,7 @@ body footer section.primer input{
 body footer section.primer button{
     width: 70px;
     height: 34px;
-    margin-right: 47px;
+    /*margin-right: 47px;*/
     border-radius: 15px;
     background: #3C2313;
     font-family: 'Roboto';
@@ -302,7 +303,8 @@ body footer section.primer button{
     color: #FFFFFF;
 }
 body footer section.segundo{
-    height: 284px;
+    /*height: 284px;*/
+    padding: 20px 6.83vw 20px 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -327,7 +329,7 @@ body footer section.segundo div span{
 }
 body footer section.segundo img.logo{
     position: absolute;
-    margin: 130px 0px 0px 788px
+    padding: 130px 0px 0px 76.95vw
 }
 body footer section.tercero{
     display: flex;
