@@ -1,184 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 body {
     background-color: #E5E5E5;
 }
-
 body header section.descuento{
     background: #1CD1B0;
-    position: relative;
-    width: 1024px;
-    height: 38px;}
-
+    padding: 3px;
+    padding-left: 20px; 
+}
 body header section.descuento p{
-    position: absolute;
     font-family: Roboto;
-    left: 10px;
-    width: 111px;
-    height: 18px;
-    top: 10px;
-    margin:auto;
     font-size: 15px;
     line-height: 18px;
 }
-
-body header section.titulo p{
-    position: absolute;
-    width: 128px;
-    height: 47px;
-    left: 28px;    
-    top: 28px;
-    font-family: Roboto;
-    margin: auto;
-    font-size: 40px;
-    line-height: 47px;
-}
-
 body header section.titulo {
-    position: relative;
-    width: 1024px;
-    height: 101px;
+    display: flex;
+    align-items: center;
     background-color: #00669F;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    border: 0px solid #000000;
+    padding: 3px;
+    padding-left: 10px;
+}
+body header section.titulo span{
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+body header section.log{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: #001D2D;
+    padding: 10px 20px 10px
+}
+body header section.log a{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 body main{
-    position: relative;
+    /*position: relative;
     width: 960px;
     height: 530px;
     left: 32px;
-    top: 292px;
+    top: 292px;*/
+    padding: 180px 14.58vw
 }
-
-body main div.batman{
-    position:absolute;
-    width: 300px;
-    height: 500px;
+body main img.boton{
+    position: absolute;
+    left: 92.5%;
+    top: 75%
+}
+body main div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+}
+body main div article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 15px;
+    min-width: 300px;
+    width: 20.83vw;
+    border-radius: 16px 16px 0px 0px;
 }
-
-body main div.batman img.like{
+body main div article img.portada{
+    width: 100%;
+}
+body main div article img.like{
     position: absolute;
     top: 3%;
     left: 6%;
 }
 
-body main div.batman img.perfil{
+body main div article img.perfil{
     position: absolute;
-    left: 30%;
-    top: 130px;
-    border-radius: 100%;
+    top: 25%;
+    border-radius: 50%;
 }
-
-body main div.batman p.letras{
-    position: absolute;
-    top: 250px;
+body main div article h2{
+    font-family: 'Roboto';
+    padding-top: 75px;
+    font-size: 30px;
+    line-height: 35px;    
+    color: #000000;
+}
+body main div article p.letras{
+    /*top: 250px;
     left: 25px;
-    width: 250px;
+    width: 250px;*/
+    padding: 10px 15px 35px 15px;
     font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
     color: #333333;
 }
 
-body main div.batman button{
-    position: absolute;
-    top: 425px;
-    left: 85px;
-    width: 130px;
-    height: 50px;
-    font-family: Roboto;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    background-color: #00669F;
-    color: #F3F3F3;
-}
-
-body main div.harley{
-    position:absolute;
-    width: 300px;
-    height: 500px;
-    left: 330px;
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-body main div.harley img.like{
-    position: absolute;
-    top: 3%;
-    left: 6%;
-}
-
-body main div.harley img.perfil{
-    position: absolute;
-    left: 30%;
-    top: 130px;
-    border-radius: 100%;
-}
-
-body main div.harley p.letras{
-    position: absolute;
-    top: 250px;
-    left: 25px;
-    width: 250px;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-body main div.harley button{
-    position: absolute;
-    top: 425px;
-    left: 85px;
-    width: 130px;
-    height: 50px;
-    font-family: Roboto;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    background-color: #00669F;
-    color: #F3F3F3;
-}
-
-body main div.batman_2{
-    position:absolute;
-    width: 300px;
-    height: 500px;
-    left: 660px;
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-body main div.batman_2 img.like{
-    position: absolute;
-    top: 3%;
-    left: 6%;
-}
-
-body main div.batman_2 img.perfil{
-    position: absolute;
-    left: 30%;
-    top: 130px;
-    border-radius: 100%;
-}
-
-body main div.batman_2 p.letras{
-    position: absolute;
-    top: 250px;
-    left: 25px;
-    width: 250px;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-body main div.batman_2 button{
-    position: absolute;
-    top: 425px;
-    left: 85px;
+body main div article button{
+    /*position: relative;
+    left: 85px;*/
     width: 130px;
     height: 50px;
     font-family: Roboto;
@@ -190,22 +122,12 @@ body main div.batman_2 button{
 }
 
 body footer{
-    position: relative;
-    width: 1024px;
-    height: 51px;
-    left: 0px;
-    top: 972px;
-
     background: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 38.18vw;
 }
 
 body footer span{
-    position: absolute;
-    width: 337px;
-    height: 19px;
-    left: 16px;
-    top: 40%;
     font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
