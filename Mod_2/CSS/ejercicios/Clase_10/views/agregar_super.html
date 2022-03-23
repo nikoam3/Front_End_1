@@ -27,8 +27,53 @@
             </section>
     </header>
 
-    <main>
+    <main class="agre_super"> 
+        <div class="principal">
+            <h2>Añadí a tu súper!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <div class="derecho">
+                <form method="post" action="">
+                    <label for="nombre">*Nombre:</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre">
+                    <br>
+                    <label for="fecha">Fecha:</label>
+                    <br>
+                    <input type="date" name="fecha" id="fecha">
+                    <br>
+                    <input type="textarea" name="descripcion" placeholder="Descripcion">
+                </form>
+            </div>
 
+            <div class="izquierdo">
+                <form method="post" action="">
+                    <label for="especie">*Especie:</label>
+                    <input type="text" name="especie" id="especie">
+                    <select id="especie"> 
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>                    
+                    </select>
+                    <label for="foto">Agregar foto:</label>
+                    <input type="file" name="foto" id="foto">
+                    
+                    <label for="poderes">Poderes:</label>
+                    <input type="checkbox" name="poderes" id="poderes" value="Volar">
+                    <input type="checkbox" name="poderes" id="poderes" value="Superintelingencia">
+                    <input type="checkbox" name="poderes" id="poderes" value="Vista de rayos láser">
+                    <input type="checkbox" name="poderes" id="poderes" value="Billetera gorda">
+                    
+                    <label for="tipo">Tipo de personaje</label>
+                    <input type="radio" name="tipo" id="tipo" value="Heroe / Heroína">
+                    <input type="radio" name="tipo" id="tipo" value="Villano / Villana">
+                </form>
+            </div>
+
+            <div class="tercer">
+
+            </div>
+        
+        </div>
     </main>
     
     <footer>
