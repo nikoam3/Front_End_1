@@ -30,50 +30,73 @@
     <main class="agre_super"> 
         <div class="principal">
             <h2>Añadí a tu súper!</h2>
-            <p>Agregá tu personaje favorito completando las opciones.</p>
-            <div class="derecho">
+            <p class="subtit">Agregá tu personaje favorito completando las opciones.</p>
+            
+            <div class="primer">
                 <form method="post" action="">
-                    <label for="nombre">*Nombre:</label>
-                    <br>
-                    <input type="text" name="nombre" id="nombre">
-                    <br>
-                    <label for="fecha">Fecha:</label>
-                    <br>
-                    <input type="date" name="fecha" id="fecha">
-                    <br>
-                    <input type="textarea" name="descripcion" placeholder="Descripcion">
+                    <div class="derecho">
+                        <p class="categoria">*Nombre:</p>
+                        <input type="text" name="nombre">
+                    </div>
+                    <div>
+                        <p class="categoria">*Especie:</p>
+                        <select placeholder="Especie"> 
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>                    
+                        </select>
+                    </div>
                 </form>
             </div>
-
-            <div class="izquierdo">
+            
+            <div class="segun">
                 <form method="post" action="">
-                    <label for="especie">*Especie:</label>
-                    <input type="text" name="especie" id="especie">
-                    <select id="especie"> 
-                        <option value="1"></option>
-                        <option value="2"></option>
-                        <option value="3"></option>                    
-                    </select>
-                    <label for="foto">Agregar foto:</label>
-                    <input type="file" name="foto" id="foto">
-                    
-                    <label for="poderes">Poderes:</label>
-                    <input type="checkbox" name="poderes" id="poderes" value="Volar">
-                    <input type="checkbox" name="poderes" id="poderes" value="Superintelingencia">
-                    <input type="checkbox" name="poderes" id="poderes" value="Vista de rayos láser">
-                    <input type="checkbox" name="poderes" id="poderes" value="Billetera gorda">
-                    
-                    <label for="tipo">Tipo de personaje</label>
-                    <input type="radio" name="tipo" id="tipo" value="Heroe / Heroína">
-                    <input type="radio" name="tipo" id="tipo" value="Villano / Villana">
+                    <div class="derecho">
+                        <p class="categoria">Fecha:</p>
+                        <input type="date" name="fecha">
+                    </div>
+                    <div>
+                        <p class="categoria">Agregar foto:</p>
+                        <input type="file" name="foto" accept=".jpg" multiple>    
+                    </div>
                 </form>
             </div>
-
             <div class="tercer">
+                <form method="post" action="">
+                    <div class="derecho">
+                        <input type="textarea" name="descripcion" placeholder="Descripción">
+                    </div>
 
+                    <div>
+                        <p class="categoria">Poderes:</p>
+                        <input type="checkbox" name="poderes" id="volar">
+                        <label for="volar">Volar</label>
+                        <br>
+                        <input type="checkbox" name="poderes" id="Superintelingencia">
+                        <label for="Superintelingencia">Superintelingencia</label>
+                        <br>
+                        <input type="checkbox" name="poderes" id="Vista">
+                        <label for="Vista">Vista de rayos láser</label>
+                        <br>
+                        <input type="checkbox" name="poderes" id="Billetera">
+                        <label for="Billetera">Billetera gorda</label>
+                        
+                        <div class="linea"></div>
+
+                        <p class="categoria">Tipo de personaje:</p>
+                        <input type="radio" name="tipo" id="heroe" checked>
+                        <label for="heroe">Heroe / Heroína</label>
+                        <br>
+                        <input type="radio" name="tipo" id="villano">
+                        <label for="villano">Villano / Villana</label>
+                    </div>
+                </form>
             </div>
-        
-        </div>
+            <form method="post" action="">
+                <button type="submit">Añadir</button>
+            </form>
+            
+        </div>            
     </main>
     
     <footer>

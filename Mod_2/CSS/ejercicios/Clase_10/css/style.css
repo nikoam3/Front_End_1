@@ -136,16 +136,16 @@ body footer span{
 main.agre_super{
     padding: 40px 16.87vw 40px 16.87vw;
 }
-main div.principal{
+main.agre_super div.principal{
     display: flex;
     flex-direction: column;
     align-items: center;
     /*min-width: 955px;
     width: 66.31vw;*/
-    padding: 5px 125px 15px 125px;
+    padding: 5px 8.33vw 15px 8.33vw;
     background-color: #00669F;
 }
-main div.principal h2{
+main.agre_super div.principal h2{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 40px;
@@ -153,39 +153,73 @@ main div.principal h2{
     /*text-align: center;*/
     color: #FBFFFD;
 }
-main div.principal p{
+main.agre_super div.principal p.subtit{
     font-family: 'Inter';
     font-weight: 300;
     font-size: 20px;
     line-height: 14px;
-    padding-bottom: 20px;
     color: #FFFFFF;
-}    
-main div.principal div.derecho{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
 }
-main div.principal div.derecho form label{
+form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main.agre_super p.categoria{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
+    padding-bottom: 15px;
     color: #FFFFFF;
 }
-main div.principal div.derecho form input[type=text], input[type=date]{
-    background: #FFFFFF;
-    height: 65px;
-    border: 1.53407px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    border-radius: 15.3407px;
-    margin: 15px 0px 30px 0px;
+main.agre_super div.principal div.primer, div.segun, div.tercer{
+    width: 100%;
+    padding: 20px 0px 30px 0px;
 }
-main div.principal div.derecho form input[type=textarea]{
-    height: 310px;
+main.agre_super div.principal div.derecho{
+    padding-right: 20px;
+}    
+main.agre_super div.principal div.primer form input[type=text], select, input[type=date]{
+    background: #FFFFFF;
+    font-size: 20px;
+    width: 22.81vw;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15.3407px;
+}
+main.agre_super div.principal div.tercer form input[type=textarea]{ 
+    padding: 10px 5px 260px 10px;
+    width: 22.81vw;
+    font-size: 20px;
     background: #FFFFFF;
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     border-radius: 15.3407px;
+}
+main.agre_super div.principal div.tercer label{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+} 
+main.agre_super div.principal div.tercer div.linea{
+    border: 1px solid #CCCCCC;
+    width: 22.81vw;
+    margin: 35px 0px 25px 0px;
+}
+main.agre_super div.principal form button{
+    width: 32.36vw;
+    height: 85px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 40px;
 }
