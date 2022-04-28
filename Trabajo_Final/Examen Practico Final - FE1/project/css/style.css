@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-position: 125% -10%;
+    background-repeat: no-repeat;
+}
+/* UNIVERSALES*/
+button.btn{
+    padding: 10px 35px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Be Vietnam';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+ul:hover, button:hover, i:hover{
+    cursor: pointer;
+}
+/* HEADER */
+body header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 10vw;
+}
+body header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Be Vietnam';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #242E52;
+}
+body header nav img.responsive{
+    display: none;
+}
+/* MAIN */
+body main{
+    background-image: url('../img/bg-tablet-pattern.svg');
+    background-position: -90% 60%;
+    background-repeat: no-repeat;
+}
+body main section.first{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 10vw;
+}
+body main section.first article.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    max-width: 39vw
+}
+body main section.first article.text h2{
+    font-family: 'Be Vietnam';
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    color: #232C50;
+    padding-right: 10vw;
+}
+body main section.first article.text span{
+    font-family: 'Be Vietnam';
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+    padding-right: 15vw;
+}
+body main section.first article.images{
+    max-width: 39vw;
+}
+body main section.second{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10vw 130px 10vw;
+}
+body main section.second article.question{
+    display: flex;
+    flex-direction: column;
+    max-width: 39vw;
+}
+body main section.second article.question h3{
+    font-family: 'Be Vietnam';
+    font-weight: 700;
+    font-size: 36px;
+    color: #232851;
+    padding-right: 10vw;
+}
+body main section.second article.question p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;    
+    color: #000000;
+    padding: 35px 15vw 0px 0px;
+}
+body main section.second div{
+    max-width: 38vw;
+    padding-left: 10px;
+}
+body main section.second div img{
+    position: absolute;
+}
+body main section.second div article h4{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #323851;
+    padding: 10px 0px 20px 100px
+}
+body main section.second div article p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #B3B2B7;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+body main section.third{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 5vw 180px 5vw
+}
+body main section.third h3{
+    font-family: 'Be Vietnam';
+    font-weight: 700;
+    font-size: 36px;
+    color: #232851;
+}
+body main section.third div{
+    display: flex;
+    align-items: center;
+}
+body main section.third article{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 75px 2vw 100px 2vw
+}
+body main section.third article p.name{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3F4868;
+    padding: 20px 0px 20px 0px
+}
+body main section.third article img{
+    width: 20%;
+    height: 20%
+}
+body main section.third article p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;    
+    color: #B9B9C1;
+    text-align: center;
+}
+body main section.fourth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3613C;
+    padding: 65px 10vw;
+    background-image: url(../img/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+}
+body main section.fourth h2{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 35vw;
+}
+body main section.fourth button{
+    width: 134px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #F3603B;
+}
+/* FOOTER */
+body footer{
+    background-color:#1E1E26;
+    padding: 65px 10vw;
+    color: #FFFFFF;
+}
+body footer nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body footer nav div.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+body footer nav div.social div{
+    display: flex;
+    justify-content: space-between;
+}
+body footer nav div.access{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15vw;
+}
+body footer nav div.access ul li{
+    list-style: none;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+body footer nav div.suscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+body footer nav div.suscribe form input{
+    width: 12.5vw;
+    height: 44px;    
+    border-radius: 50px;
+    padding-left: 10px;
+    font-family: 'Be Vietnam';
+    font-weight: 600;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+body footer nav div.suscribe form button{
+    width: 65px;
+    height: 40px;
+    background: #F3603B;
+    border-radius: 50px;
+    font-family: 'Be Vietnam';
+    font-weight: 500;
+    font-size: 13px;
+}
+body footer nav div.suscribe p.hidden, p.responsive{
+    font-family: 'Be Vietnam';
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #8C8C94;
+    padding-bottom: 15px;
+}
+body footer nav p.responsive{
+    display: none;
+}
+body footer nav div.suscribe form input:invalid{
+    color: red;
+}
+body footer nav div.suscribe form input:valid{
+    background-color: rgb(146, 224, 146);
+    color: black
+}
+
+/* MEDIAS Q */
+@media (max-width: 850px) {
+    body header nav ul, button{
+        display: none;
+    }
+    body header nav img.responsive{
+        display: block;
+    }
+    body main section.first, section.second{
+        flex-direction: column;
+        align-items: center;
+    }
+    body main section.first{
+        padding: 50px 10vw
+    }
+    body main section.first article.text{
+        max-width: none;
+        align-items: center;
+        text-align: center;
+    }
+    body main section.first article.text h2{
+        padding: 0px 0px 20px 0px
+    }
+    body main section.first article.text span{
+        padding: 0px 0px 20px 0px
+    }
+    body main section.first article.text button{
+        display: block;
+    }
+    body main section.first article.images{
+        max-width: none;
+        order: -1;
+        padding: 0px 0px 20px 0px
+    }
+    body main section.second{
+    padding: 0px 10vw 30px 10vw;
+    }
+    body main section.second article.question{
+        padding: 0px;
+        max-width: none;
+        text-align: center
+    }
+    body main section.second article.question h3, p{
+        padding: 0px 0px 20px 0px;
+    }
+    body main section.second article.question p{
+        padding: 0px 0px 20px 0px;
+    }
+    body main section.second div{
+        max-width: none;
+        padding: 0px 0px 20px 0px;
+    }
+    body main section.second div article h4{
+        padding: 10px 0px 10px 75px;
+        background-color: rgb(255, 239, 234);
+        font-size: 15px
+    }
+    body main section.second div article p{
+        padding: 10px 0px 20px 0px;
+    }
+    body main section.third{
+        padding: 0px 10vw 50px 10vw;;
+    }
+    body main section.third div article.hidden{
+        display: none;
+    }
+    body main section.third div article{
+        padding: 20px 0px;
+    }
+    body main section.third button{
+    display: block;
+    }
+    body main section.fourth{
+        padding: 50px 10vw;
+        flex-direction: column;
+    }
+    body main section.fourth h2{
+        width: fit-content;
+        padding: 0px 0px 20px 0px;
+        text-align: center
+    }
+    body main section.fourth button{
+        display: block;
+    }
+    body footer{
+        padding: 50px 10vw;
+    }
+    body footer nav{
+        flex-direction: column;
+    }
+    body footer nav div.suscribe{
+        order: -2;
+        align-items: stretch;
+    }
+    body footer nav div.suscribe form{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+    body footer nav div.suscribe p{
+        display: flex;
+    }
+    body footer nav div.access{
+        order: -1;
+        justify-content: space-evenly
+    }
+    body footer nav div.social div{
+        order: -1;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+    body footer nav div.suscribe form input{
+        width: 55vw
+    }
+    body footer nav div.suscribe form button{
+        display: block;
+    }
+    body footer nav div.social a{
+    text-align: center;
+    padding: 50px 0px
+    }
+    body footer nav div.suscribe p.hidden{
+        display: none
+    }
+    body footer nav p.responsive{
+        display: block;
+        text-align: center;
+        padding: 0px
+    }
+}
+
